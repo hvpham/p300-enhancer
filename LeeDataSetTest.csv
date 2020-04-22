@@ -1,0 +1,17 @@
+method,pos_file,neg_file,no_selected_kmers,kmers_length,combination_distance, preselect_method,svm_select_method,no_fold,ROC AUC,PR AUC
+enhancer_combined_svm,EWSFLI_ews502_hg18_10000,EWSFLI_ews502_hg18_neg10x_10000,100,6,100,tTest,2+n,5,0.961169,0.952703
+enhancer_combined_svm,EWSFLI_Huvec_hg18_10000,EWSFLI_Huvec_hg18_neg10x_10000,100,6,100,tTest,2+n,5,0.962092,0.960960
+enhancer_combined_svm,GR_3134_mm8_10000,GR_3134_mm8_neg10x_10000,100,6,100,tTest,2+n,5,0.893434,0.870099
+enhancer_combined_svm,GR_att20_mm8_10000,GR_att20_neg10x_10000,100,6,100,tTest,2+n,5,0.905115,0.776863
+enhancer_combined_svm,ESRRB_mm8_10000,ESRRB_mm8_neg10x_10000,100,6,100,tTest,2+n,5,0.914845,0.928240
+enhancer_combined_svm,EWSFLI_ews502_hg18_10000,EWSFLI_ews502_hg18_neg10x_10000,100,6,100,svm,2+n,5,0.963768,0.955550
+enhancer_combined_svm,EWSFLI_Huvec_hg18_10000,EWSFLI_Huvec_hg18_neg10x_10000,100,6,100,svm,2+n,5,0.966819,0.965914
+enhancer_combined_svm,GR_3134_mm8_10000,GR_3134_mm8_neg10x_10000,100,6,100,svm,2+n,5,0.894704,0.870970
+enhancer_combined_svm,GR_att20_mm8_10000,GR_att20_neg10x_10000,100,6,100,svm,2+n,5,0.906826,0.779498
+enhancer_combined_svm,ESRRB_mm8_10000,ESRRB_mm8_neg10x_10000,100,6,100,svm,2+n,5,0.914164,0.927887
+enhancer_combined_svm,1_TAL1_erythroid_pos_thanh,1_TAL1_erythroid_neg_thanh,100,6,100,svm,2+n,5,0.860666,0.742685
+enhancer_combined_svm,2_HNF4A_prolCell_pos_thanh,2_HNF4A_prolCell_neg_thanh,100,6,100,svm,2+n,5,0.789087,0.650648
+enhancer_combined_svm,3_GATA6_prolCell_pos_thanh,3_GATA6_prolCell_neg_thanh,100,6,100,svm,2+n,5,0.966333,0.928079
+enhancer_combined_svm,4_CDX2_prolCell_pos_thanh,4_CDX2_prolCell_neg_thanh,100,6,100,svm,2+n,5,0.853670,0.748012
+enhancer_combined_svm,7_PHA4_embryo_pos_thanh,7_PHA4_embryo_neg_thanh,100,6,100,svm,2+n,5,0.864375,0.757488
+enhancer_combined_svm,10_H3K4me2_prolCell_pos_thanh,10_H3K4me2_prolCell_neg_thanh,100,6,100,svm,2+n,5,0.803756,0.649665
